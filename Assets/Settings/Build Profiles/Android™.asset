@@ -31,6 +31,9 @@ MonoBehaviour:
   - m_enabled: 1
     m_path: Assets/Scenes/Level_01.unity
     m_guid: e898b892080191b43a7945785e7448d0
+  - m_enabled: 1
+    m_path: Assets/Scenes/Level_02.unity
+    m_guid: 85fe1c3aea305684db41dbcbb492a8f7
   m_HasScriptingDefines: 0
   m_ScriptingDefines: []
   m_PlayerSettingsYaml:
