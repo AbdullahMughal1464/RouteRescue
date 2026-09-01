@@ -52,6 +52,8 @@ public class VehicleCollisionHandler : MonoBehaviour
         Debug.Log("WIN! Level complete.");
         pathFollower.OnCrash(); // reuse this to stop the vehicle cleanly
 
+        LevelProgressManager.AdvanceToNextLevel(); // player moves on to the next level next time
+
         int stars = 1;
         if (starCalculator != null)
         {
