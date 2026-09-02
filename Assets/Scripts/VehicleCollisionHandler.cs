@@ -58,6 +58,17 @@ public class VehicleCollisionHandler : MonoBehaviour
             stars = starCalculator.CalculateStars(pathFollower.levelStartTime);
         }
 
+        // Is scene ka LevelInfo dhoondh kar save karein kis level ke stars hain
+        LevelInfo info = FindFirstObjectByType<LevelInfo>();
+        if (info != null)
+        {
+            LevelSaveManager.SetStars(info.levelNumber, stars);
+        }
+        else
+        {
+            Debug.LogWarning("LevelInfo not found in scene - stars won't be saved!");
+        }
+
         if (uiManager != null)
         {
             uiManager.ShowWinPanel(stars);
