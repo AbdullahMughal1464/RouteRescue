@@ -2810,13 +2810,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vehicle
       objectReference: {fileID: 0}
+    - target: {fileID: 5782032584030571046, guid: c8acf361a3827f240babdfb4a8abe202, type: 3}
+      propertyPath: moveSpeed
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5782032584030571046, guid: c8acf361a3827f240babdfb4a8abe202, type: 3}
+      propertyPath: rotateSpeed
+      value: 16
+      objectReference: {fileID: 0}
     - target: {fileID: 9070700863042379392, guid: c8acf361a3827f240babdfb4a8abe202, type: 3}
       propertyPath: twoStarTime
       value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 9070700863042379392, guid: c8acf361a3827f240babdfb4a8abe202, type: 3}
       propertyPath: threeStarTime
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
