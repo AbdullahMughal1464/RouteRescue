@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 722a3625161b0ab40b86386354ca6c1a
+guid: 826c9298d544a1b41a4bd648d6e616ec
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5222927119181187728
-    second: Play button_0
+      213: -1919948530310039358
+    second: MusicIcon_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Play button_0
+      name: MusicIcon_0
       rect:
         serializedVersion: 2
-        x: 154
-        y: 98
-        width: 2568
-        height: 879
+        x: 505
+        y: 85
+        width: 910
+        height: 910
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 09a8c8aea809b7840800000000000000
-      internalID: 5222927119181187728
+      spriteID: 2c836d7ebf8fa55e0800000000000000
+      internalID: -1919948530310039358
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Play button_0: 5222927119181187728
+      MusicIcon_0: -1919948530310039358
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

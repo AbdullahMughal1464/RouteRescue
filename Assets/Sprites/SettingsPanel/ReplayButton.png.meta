@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1fc27455a54feca4fbb37ceb77705f9d
+guid: 2f9619b7dac685f49bd0dabb9cd29c98
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4730000969188304387
-    second: Setting Button_0
+      213: 7479827218119406675
+    second: ReplayButton_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -38,7 +38,7 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 1
-    aniso: 2
+    aniso: 1
     mipBias: 0
     wrapU: 1
     wrapV: 1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Setting Button_0
+      name: ReplayButton_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 18
-        width: 245
-        height: 72
+        x: 428
+        y: 349
+        width: 1064
+        height: 413
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 306e8b322d654a140800000000000000
-      internalID: 4730000969188304387
+      spriteID: 3543e4d993fadc760800000000000000
+      internalID: 7479827218119406675
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Setting Button_0: 4730000969188304387
+      ReplayButton_0: 7479827218119406675
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
