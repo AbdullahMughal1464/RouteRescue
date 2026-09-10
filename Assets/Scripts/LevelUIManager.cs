@@ -1,6 +1,5 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using TMPro;
 
 public class LevelUIManager : MonoBehaviour
 {
@@ -8,8 +7,8 @@ public class LevelUIManager : MonoBehaviour
     public GameObject failPanel;
     public GameObject winPanel;
 
-    [Header("Win Panel Extras")]
-    public TMP_Text starText; // drag a TextMeshPro text inside WinPanel here
+    [Header("Win Panel Stars")]
+    public GameObject[] starIcons; // drag Star1, Star2, Star3 GameObjects here, in order
 
     // Call this when the vehicle crashes
     public void ShowFailPanel()
@@ -22,13 +21,10 @@ public class LevelUIManager : MonoBehaviour
     {
         winPanel.SetActive(true);
 
-        if (starText != null)
+        // Turn ON however many stars were earned, turn OFF the rest
+        for (int i = 0; i < starIcons.Length; i++)
         {
-            // Using plain characters here since not all fonts include the ★ unicode glyph.
-            // We'll swap this for real star icon images later in the polish stage.
-            string filled = new string('*', stars);
-            string empty = new string('-', 3 - stars);
-            starText.text = filled + empty;
+            starIcons[i].SetActive(i < stars);
         }
     }
 
